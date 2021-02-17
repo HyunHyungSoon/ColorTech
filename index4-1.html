@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>온양칼라테크</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    .text_white{
+      font-size:16px;
+      color: white;
+      line-height: 1.5;
+      font-family: '배달의민족 한나체 Air OTF Regular'
+    }
+    .시공전 {
+      margin-top: 50px;
+      color: white;
+      text-align: center;
+    }
+    .picture {
+      border: 3px solid white;
+      height: 300px;
+    }
+    .shadow1 {
+    padding-top: 70px;
+    text-align: center;
+    }
+  }
+  .container{
+         display: flex;
+         flex-direction: column;
+     }
+     header{
+         border-bottom:1px solid black;
+         padding-left:20px;
+     }
+     footer{
+         border-top:1px solid black;
+         padding:20px;
+         text-align: center;
+     }
+     .content{
+         display:flex;
+     }
+     .content nav{
+         border-right:1px solid black;
+     }
+     .content aside{
+         border-left:1px solid black;
+     }
+     nav, aside{
+        flex-basis: 20px;
+         flex-shrink: 0;
+     }
+     main{
+       background-image: url('gradation.jpg');
+         padding:20px;
+         padding-left: 30px;
+         border-radius: 16px;
+         height: 1850px;
+         width: 100%;
+     }
+
+  </style>
+  </head>
+  <body>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index2.html">DENT</a>
+          <a href="index3.html">NANO 유리막코팅</a>
+          <a href="index4.html">Painting 도색</a>
+          <a href="index5.html">Restoration of Light</a>
+      </div>
+      </div>
+
+    <div id ="container2">
+      <span id = menu style="font-size:13px; color: black; background-color: white;
+       cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+       <a id = logo href ="index.html"> <img src="logo.png" width="150"alt=""> </a>
+
+     </div>
+
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+      </script>
+
+  <div id = black>
+<h1 class="shadow1"> PAINTING - 도색 </h1>
+    <div class="container">
+        <header>
+            <h1></h1>
+        </header>
+        <section class="content">
+            <nav>
+            </nav>
+            <main>
+              <p style="font-size:40px; color: #d868d8; font-weight:bold;
+              font-family: '배달의민족 도현 OTF'"
+              > 첫 차처럼 <br> 새로운 모습을 <br> 기대하라
+              </p>
+              <p style="font-size:30px; color: white; font-weight:bold; line-height: 1.3;
+              font-family: '배달의민족 주아 OTF'"
+              > 심혈을 기울인 <br> 장인의 작업과정 공개
+              </p>
+              <p style="font-size:16px; color: white; line-height: 1.5;
+              font-family: '배달의민족 한나체 Air OTF Regular'"> 단순한 스크래치 뿐만 아니라 내 차의 모습을 조금 더 색다르게 바꾸길 원한다면 도색을 추천한다. 원하는 모습 그 이상으로 변화할 것이다.
+              자동차 도색은 단순한 페인팅으로 끝나는 작업이라고 생각하면 큰 오산이다. 칼라테크에서 하는 도색은 밑작업부터 다듬고, 막을 형성하고, 칠하고를 반복한다.
+              </p>
+              <p style="text-align:center; color:skyblue; font-weight:bold; margin:50px;"> 도색 과정 소개</p>
+
+            <p>
+<iframe width="260" height="157" src="https://www.youtube.com/embed/ao8gImxYjPA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            <p class="text_white">
+
+           1. 샌딩 작업 <br>
+           2. 탈지 작업 <br>
+           3. 퍼티 작업 <br>
+           4. 적외선 건조<br>
+           5. 서페이서 작업<br>
+           6. 샌딩 작업 및 베이스 작업 </p>
+
+           <h2 class="시공전"> 시공 전</h2>
+           <p class="picture"> picture</p>
+
+           <h2 class="시공전"> 시공 후</h2>
+           <p class="picture"> picture</p>
+
+            </main>
+            <aside>
+
+            </aside>
+        </section>
+        <footer>
+            <div class="center">
+            <a href="estimate.html">
+            <div id = 견적button>
+              견적하기
+            </div></a>
+            </div>        </footer>
+    </div>
+</body>
+</html>
